@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of BHARANITHARAN V - Student at Kongu Engineering College. Explore projects like Smart Education System, Smart Attendance System, Shop Cart, and play a retro Snake Game.">
+  <meta name="keywords" content="Bharanitharan V, Kongu Engineering College, Portfolio, Web Developer, Java, Python, C++, C, JavaScript, Snake Game, Smart Attendance, Smart Education">
+  <title>BHARANITHARAN V | Developer Portfolio</title>
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Devicon (Technology Colored Icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+  <!-- Floating Particle Background -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Glowing Background Orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header>
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        BHARANI<span>THARAN V</span>
+      </a>
+      
+      <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">Welcome to my Space</div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">BHARANITHARAN V</span>
+          </h1>
+          <p class="hero-description">
+            A passionate engineering student at Kongu Engineering College, dedicated to coding, developing smart solutions, and building interactive software systems.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-circle circle-1"></div>
+          <div class="hero-circle circle-2"></div>
+          <div class="hero-box">
+            <div class="hero-box-inner">
+              <i class="fas fa-laptop-code"></i>
+              <div class="hero-box-title">Web Developer</div>
+              <div class="hero-box-subtitle">& Programmer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A glimpse into my educational background, core pursuits, and aspirations.</p>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-info">
+            <h3>Aspiring Software Engineer</h3>
+            <p>
+              I am currently pursuing my education at <strong>Kongu Engineering College</strong>, focusing on developing practical coding skills across various programming paradigms. I specialize in building smart applications, automating manual workflows, and designing fun retro video games.
+            </p>
+            <p>
+              I thrive on tackling logical challenges and continuously learning new technologies. My goal is to build software that is both elegant and impactful.
+            </p>
+            <a href="#contact" class="btn btn-primary">Let's Connect</a>
+          </div>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-university"></i>
+              <div class="detail-title">College</div>
+              <div class="detail-value">Kongu Engineering College</div>
+            </div>
+            
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div class="detail-title">Education</div>
+              <div class="detail-value">Bachelor of Engineering</div>
+            </div>
+            
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="detail-title">Location</div>
+              <div class="detail-value">Perundurai, Erode, TN, India</div>
+            </div>
+            
+            <div class="detail-item">
+              <i class="fas fa-briefcase"></i>
+              <div class="detail-title">Focus Area</div>
+              <div class="detail-value">Software Development</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Programming Skills</h2>
+          <p class="section-subtitle">A collection of languages, markup, and frameworks I have worked with.</p>
+        </div>
+        
+        <div class="skills-container">
+          <div class="skills-grid">
+            
+            <!-- C Language -->
+            <div class="skill-card c-lang">
+              <i class="skill-icon devicon-c-plain colored"></i>
+              <div class="skill-name">C</div>
+            </div>
+
+            <!-- C++ Language -->
+            <div class="skill-card cpp-lang">
+              <i class="skill-icon devicon-cplusplus-plain colored"></i>
+              <div class="skill-name">C++</div>
+            </div>
+
+            <!-- Java -->
+            <div class="skill-card java-lang">
+              <i class="skill-icon devicon-java-plain colored"></i>
+              <div class="skill-name">Java</div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card js-lang">
+              <i class="skill-icon devicon-javascript-plain colored"></i>
+              <div class="skill-name">JavaScript</div>
+            </div>
+
+            <!-- HTML5 -->
+            <div class="skill-card html-lang">
+              <i class="skill-icon devicon-html5-plain colored"></i>
+              <div class="skill-name">HTML5</div>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-card py-lang">
+              <i class="skill-icon devicon-python-plain colored"></i>
+              <div class="skill-name">Python</div>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-card css-lang">
+              <i class="skill-icon devicon-css3-plain colored"></i>
+              <div class="skill-name">CSS3</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Developed Projects</h2>
+          <p class="section-subtitle">A collection of academic, group, and personal projects I've built.</p>
+        </div>
+        
+        <div class="projects-grid">
+          
+          <!-- Smart Education System -->
+          <div class="project-card">
+            <div class="project-banner">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Group Project</span>
+              <h3 class="project-title">Smart Education System</h3>
+              <p class="project-desc">
+                A collaborative web platform created in a group to make student learning more engaging, smart, and accessible with digital study aids.
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">HTML5</span>
+                <span class="tag-pill">CSS3</span>
+                <span class="tag-pill">JavaScript</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Smart Attendance System -->
+          <div class="project-card">
+            <div class="project-banner">
+              <i class="fas fa-user-check"></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Personal Project</span>
+              <h3 class="project-title">Smart Attendance System</h3>
+              <p class="project-desc">
+                An automated digital utility designed to manage, record, and verify attendee logs efficiently, minimizing manual tracking errors.
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">Java</span>
+                <span class="tag-pill">Database</span>
+                <span class="tag-pill">OOP</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Shop Cart -->
+          <div class="project-card">
+            <div class="project-banner">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Web App</span>
+              <h3 class="project-title">Shop Cart</h3>
+              <p class="project-desc">
+                An interactive e-commerce shopping cart system with real-time total updates, quantity adjustments, and smooth checkout animations.
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">HTML5</span>
+                <span class="tag-pill">CSS3</span>
+                <span class="tag-pill">JavaScript</span>
+              </div>
+              <a href="#" class="project-link">Learn More <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Snake Game -->
+          <div class="project-card">
+            <div class="project-banner">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="project-info">
+              <span class="project-tag">Playable Game</span>
+              <h3 class="project-title">Retro Snake Game</h3>
+              <p class="project-desc">
+                A simple, classic browser snake game built using HTML5 Canvas. Try it out directly on this portfolio to beat the high score!
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">HTML5 Canvas</span>
+                <span class="tag-pill">JavaScript</span>
+                <span class="tag-pill">CSS Animations</span>
+              </div>
+              <a href="#" id="play-snake-btn" class="project-link">Play Game <i class="fas fa-play"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Interested in collaborating or have a question? Shoot me a message!</p>
+        </div>
+        
+        <div class="contact-grid">
+          
+          <!-- Contact details card -->
+          <div class="contact-card">
+            <h3>Contact Info</h3>
+            <p>Feel free to reach out to me via email, phone, or standard social handles. I am always open to discussing new projects.</p>
+            
+            <div class="contact-methods">
+              
+              <!-- Email -->
+              <a href="mailto:bharanitharan.v@example.com" class="method-item" id="contact-email">
+                <div class="method-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-info">
+                  <span class="method-label">Email Me</span>
+                  <span class="method-val">bharani20072011@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- Phone -->
+              <a href="tel:+919876543210" class="method-item" id="contact-phone">
+                <div class="method-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="method-info">
+                  <span class="method-label">Call Me</span>
+                  <span class="method-val">+91 9790386513</span>
+                </div>
+              </a>
+
+              <!-- College Address -->
+              <div class="method-item" id="contact-address">
+                <div class="method-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="method-info">
+                  <span class="method-label">College Address</span>
+                  <span class="method-val">Kongu Engineering College, Perundurai</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-socials">
+        <!-- LinkedIn -->
+        <a href="" target="_blank" class="social-icon linkedin" aria-label="LinkedIn Profile" id="social-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/bharani20072011-gif" target="_blank" class="social-icon github" aria-label="GitHub Profile" id="social-github">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/littleboy.cs38/?hl=en" target="_blank" class="social-icon instagram" aria-label="Instagram Profile" id="social-instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- LeetCode -->
+        <a href="https://leetcode.com/u/bharani20072011/" target="_blank" class="social-icon leetcode" aria-label="LeetCode Profile" id="social-leetcode">
+          <i class="devicon-leetcode-plain"></i>
+        </a>
+      </div>
+      <p class="footer-copy">
+        &copy; 2026 BHARANITHARAN V. Built with Passion | Kongu Engineering College.
+      </p>
+    </div>
+  </footer>
+
+  <!-- RETRO SNAKE GAME MODAL -->
+  <div id="game-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="close-modal" id="close-game-modal" aria-label="Close Game Modal">&times;</button>
+      <h3 class="game-title">Classic Snake</h3>
+      <p class="game-desc">Use arrow keys or WASD to guide the snake and eat the red food!</p>
+      
+      <div class="game-container">
+        <canvas id="game-canvas" width="300" height="300"></canvas>
+      </div>
+
+      <div class="game-stats">
+        <div class="stat-box">
+          <div class="stat-label">Score</div>
+          <div id="current-score" class="stat-val">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">High Score</div>
+          <div id="high-score" class="stat-val">0</div>
+        </div>
+      </div>
+
+      <div class="game-controls-help">
+        <span><i class="fas fa-keyboard"></i> Arrow Keys / WASD</span>
+      </div>
+
+      <!-- On-Screen Keypad for Mobile -->
+      <div class="game-mobile-keys">
+        <button id="mobile-key-up" class="key-btn key-up" aria-label="Move Up"><i class="fas fa-chevron-up"></i></button>
+        <button id="mobile-key-left" class="key-btn key-left" aria-label="Move Left"><i class="fas fa-chevron-left"></i></button>
+        <button id="mobile-key-down" class="key-btn key-down" aria-label="Move Down"><i class="fas fa-chevron-down"></i></button>
+        <button id="mobile-key-right" class="key-btn key-right" aria-label="Move Right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- JavaScript logic -->
+  <script src="script.js"></script>
+</body>
+</html>
